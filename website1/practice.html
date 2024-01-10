@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Pablo's</title>
+    <style>
+        body {
+            font-family: Francois system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: x-large;
+            
+    
+            
+        }
+        header {
+            font-family: "Papyrus", fantasy;
+            background-color:white;
+            color: black;
+            text-align: center;
+            padding: 0%;
+            margin: 0%;
+            
+        }
+        h1 {
+            font-size: 36px;
+        }
+        .container {
+            max-width: 8000px;
+            margin: 0 auto;
+            padding: 0px;
+            background-color: white;
+            
+            text-align: center;
+        }
+        p {
+            
+             font-family: 'Carme', sans-serif; font-size: 20px; padding: 10px;
+        }
+        ul {
+            
+            list-style-type: none;
+            text-decoration-color: black;
+            text-align: center;
+            
+            
+        }
+        ul li {
+            margin: 20px;
+            padding: 5px;
+            margin-top: 75px;
+            display: inline-block;
+            
+        }
+        ul li a {
+            
+            text-decoration: none;
+            font-size: 20px;
+            padding: 0px;
+            text-align: center;
+
+            
+        }
+        ul li a:hover {
+            text-decoration: underline;
+            
+        }
+        .section {
+            display: inline;
+            padding:0;
+            margin: 0;
+            align-items: center;
+            justify-content: center;
+            text-transform: uppercase;
+        
+        }
+        #section1 {
+            background-size:2000px;
+            background-image: url('imagee.jpg'); 
+        }
+        #section2 {
+            background-size:1900px;
+            background-image: url('eggs-999-x-993-background-7gt4rjvj34b5hkcd.jpg'); 
+        }
+        #section_menu_sign {
+            background-image: url('');
+        }
+        #section3 {
+            background-image: url(''); 
+            
+        }
+        #section4 {
+            background-image: url(''); 
+            float: left;
+            padding:5%;
+            
+        }
+        #section5 {
+            padding:5%;
+            float:center;
+            background-color: #444;
+            
+        }
+        #section5 a {
+            color: black;
+            
+        }
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            cursor: pointer;
+        }
+        .menu-container {
+            max-width: 8000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            text-align: center;
+            background-color: #dd360c4d;
+        }
+        .menu {
+            display: none;
+            
+        }
+        .active-menu {
+            display: block;
+        }
+        
+    </style>
+    
+    
+    
+</head>
+<body>
+    <header>
+        <img src="1286146771.png" ,border="" ,align="center", width="1903", height="30">
+        <br><br>
+        <img src="Ekran görüntüsü 2023-12-24 211320.png" ,border="0" ,align="center", width="300", height="150">
+    </header>
+    
+    <ul>
+        <li><a href="#section1">About Us</a></li>
+            <li><a href="#section2">Breakfast</a></li>
+                <li><a href="#section3">Our Menu</a></li>
+                    <li><a href="#section4">Contact Us</a></li>
+    </ul>
+
+    <div class="container", align="center">
+            
+        
+            <section id="section1">  <!-- About Us -->
+                <img src="pizza-16.gif" ,border="0" ,align="center ", width="1903", height="450">
+                
+                <h2>Welcome to Our Culinary Haven!</h2>
+
+                <p><b>Step into a world where gastronomic artistry meets unparalleled hospitality. At our esteemed establishment, we take pride in crafting an exquisite culinary experience, blending the charm of a traditional pizzeria with the allure of gourmet breakfasts and the sophistication of bespoke, handcrafted beverages.</b> </p>
+
+                <p><b>Indulge your senses in the symphony of flavors that define our artisanal pizzas, meticulously prepared to captivate even the most discerning palate. Immerse yourself in the warmth of our welcoming ambiance, where each dish tells a story of passion and dedication to culinary excellence.</b> </p>
+
+                <p><b>As the sun rises, savor the awakening of your day with our carefully curated breakfast menu, a gastronomic journey designed to elevate your morning ritual. Complemented by an array of fanciful drinks, our offerings transcend the ordinary, inviting you to embark on a delightful exploration of taste and refinement.</b> </p>
+
+                <p><b>Whether you seek the comforting embrace of a classic pizza, the sophistication of a gourmet breakfast, or the allure of an impeccably crafted beverage, our establishment is a haven for connoisseurs of culinary art. We extend our heartfelt invitation to join us on a gastronomic voyage where every moment is an ode to the joy of exquisite dining. Welcome to a place where flavors dance, and memories are savored.</b> </p> 
+            </section>
+            
+            
+            <section id="section2"> <!-- Breakfast -->
+                <img src="delish-delish-recipes.gif" ,border="0" ,align="center ", width="1903", height="500">
+                <h3> Breakfast</h3>
+                <h4>Savor nutritious delights at Pablo's breakfast haven.From hearty omelets to golden pancakes,</h4>
+                <h4>our menu is crafted for a vibrant start,</h4>
+                <h4>ensuring each day begins with vitality and flavor. 🍳🌅</h4>
+            </section>
+            
+            <section id="section_menu_sign">
+                <h2 style="text-align:center">Menu</h2>
+            </section>
+            <section id="section3"> <!-- Menu -->
+                
+                <nav>
+                    <a onclick="showMenu('breakfast')">Breakfast</a>
+                    <a onclick="showMenu('mainDishes')">Main Dishes</a>
+                    <a onclick="showMenu('drinks')">Drinks</a>
+                </nav>
+                <div class="menu-container">
+                    <div id="breakfast" class="menu active-menu">
+                        <h2>Egg rolls &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.99</h2>
+                        <h2>Bacon Sandwich&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.99</h2>
+                        <h2>Bacon&Eggs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.49</h2>
+                        <!-- Add breakfast menu items here -->
+                    </div>
+                    <div id="mainDishes" class="menu">
+                        <h2>Mexican Hot&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9.99</h2>
+                        <h2>Seafood Pizza&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12.99</h2>
+                        <h2>Margherita&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.99</h2>
+                        <h2>Pepperoni&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.99</h2>
+                        <!-- Add main dishes menu items here -->
+                    </div>
+                    <div id="drinks" class="menu">
+                        <h2>Coffee&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.99</h2>
+                        <h2>Iced Tea&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.49</h2>
+                        <h2>Coke&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.99</h2>
+                        <h2>Boba Tea&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.99</h2>
+                        <!-- Add drinks menu items here -->
+                    </div>
+                </div>
+            
+                <script>
+                    function showMenu(menuId) {
+                        // Hide all menus
+                        var menus = document.querySelectorAll('.menu');
+                        menus.forEach(function(menu) {
+                            menu.classList.remove('active-menu');
+                        });
+            
+                        // Show the selected menu
+                        document.getElementById(menuId).classList.add('active-menu');
+                    }
+                </script>
+                <br>
+
+            </section>
+            
+            
+            <section id="section4"> <!-- Contact Us -->
+                <h4>Edgefield 42 Townsroad, New Haven, CT 06513</h4>
+                <h4>+1 203-773-0848</h3>
+                <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Monday-Saturday&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sunday</h4>
+                <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9:00 am - 9:00 pm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9:00 am - 3:00 pm</h4>
+                
+            </section>
+            
+            
+
+            <section id="section5">  
+                <h1>Give Us Your Feedback!</h1>
+                <form>
+                    <label for="fulfilling">This was fulfilling:</label>
+                    <input type="radio" name="choice" value="option1">
+                    <br>
+
+                    <label for="not-fulfilling">This was not fulfilling:</label>
+                    <input type="radio" name="choice" value="option2">
+                    <br>
+
+                    <input type="submit" value="Submit your answer">
+                </form>
+                <br>
+                <a href=“mailto:PablosPlace@hotmail.com”>To reach out to us for any complaints, click here. </a>
+            </section>
+    </div>
+    
+    
+</body>
+</html>
